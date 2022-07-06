@@ -1,5 +1,3 @@
-HTML CSS JSResult Skip Results Iframe
-EDIT ON
 window.onload = function(){
    
      //画像を配列に格納
