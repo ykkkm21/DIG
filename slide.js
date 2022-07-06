@@ -1,9 +1,10 @@
 window.onload = function(){
    
      //画像を配列に格納
-     var images =['url(https://drive.google.com/uc?export=view&id=1tLhP0imM-1kfL00b0wRFdX5gIII2dMaC)',
-                  'url(https://drive.google.com/uc?export=view&id=1w21XpFKucyh3DSLU0_1mNugIi-Rko-QW)',
-                  'url(https://drive.google.com/uc?export=view&id=1hc_1uV3wKih8O-pPOcAxnIVYLUMSAk6m)']
+     var images =['url(https://github.com/ykkkm21/DIG/raw/main/gt3.jpg)',
+                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%891.JPG)',
+                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%892.JPG)',
+                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%893.JPG)']
 
      //要素をHTMLから取得
      //画像
@@ -23,7 +24,7 @@ window.onload = function(){
 
     //>をクリックしたらcountを+1する
     function goNext(){
-        if(count == 2){
+        if(count == 3){
             count = 0;
         }else{
             count++;
@@ -34,7 +35,7 @@ window.onload = function(){
     //<をクリックしたらcountを-1する
     function goBack(){
         if(count == 0){
-            count = 2;
+            count = 3;
         }else{
             count--;
         }
