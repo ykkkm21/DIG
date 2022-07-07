@@ -1,13 +1,13 @@
 .slide-pic{
     max-width: 100%;
-    height: auto;
+    height: 900px;
     margin: auto;
     
 }
 /*画像配置*/
 .slideshow{
     max-width: 100%;
-    height: auto;
+    height: 100%;
     background-image: url(https://github.com/ykkkm21/DIG/blob/main/gt3.JPG?raw=true);/*JSで切り替える画像*/
     background-repeat: no-repeat;
     background-size: cover;
