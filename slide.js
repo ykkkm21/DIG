@@ -1,10 +1,17 @@
 window.onload = function(){
    
      //画像を配列に格納
-     var images =['url(https://github.com/ykkkm21/DIG/raw/main/gt3.jpg)',
-                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%891.JPG)',
-                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%892.JPG)',
-                  'url(https://github.com/ykkkm21/DIG/raw/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%893.JPG)']
+     var images =['url(https://github.com/ykkkm21/DIG/blob/main/gt3.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%891.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%892.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%893.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%894.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%895.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%896.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%897.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%898.JPG?raw=true)',
+                  'url(https://github.com/ykkkm21/DIG/blob/main/%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%899.JPG?raw=true)',
+                ]
 
      //要素をHTMLから取得
      //画像
@@ -24,7 +31,7 @@ window.onload = function(){
 
     //>をクリックしたらcountを+1する
     function goNext(){
-        if(count == 3){
+        if(count == 9){
             count = 0;
         }else{
             count++;
@@ -35,7 +42,7 @@ window.onload = function(){
     //<をクリックしたらcountを-1する
     function goBack(){
         if(count == 0){
-            count = 3;
+            count = 9;
         }else{
             count--;
         }
